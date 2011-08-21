@@ -1,0 +1,773 @@
+Content-Type: multipart/related; start=<op.mhtml.1311863486141.f21bef5e4f66061b@218.193.189.106>; boundary=----------LTD4Fd0ifg85DHQ9QmB4Iq
+Content-Location: https://ccrma.stanford.edu/~jos/resample/Available_Software.html
+Subject: =?utf-8?Q?Free=20Resampling=20Software?=
+MIME-Version: 1.0
+
+------------LTD4Fd0ifg85DHQ9QmB4Iq
+Content-Disposition: inline; filename=Available_Software.html
+Content-Type: text/html; charset=UTF-8; name=Available_Software.html
+Content-ID: <op.mhtml.1311863486141.f21bef5e4f66061b@218.193.189.106>
+Content-Location: https://ccrma.stanford.edu/~jos/resample/Available_Software.html
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+
+<!--Converted with LaTeX2HTML 2006-1 (1.71)
+original version by:  Nikos Drakos, CBLU, University of Leeds
+* revised and updated by:  Marcus Hennecke, Ross Moore, Herb Swan
+* with significant contributions from:
+  Jens Lippmann, Marek Rouchal, Martin Wilck and others -->
+<HTML>
+<HEAD>
+<TITLE>Free Resampling Software</TITLE>
+<META NAME="description" CONTENT="Free Resampling Software">
+<META NAME="keywords" CONTENT="resample">
+<META NAME="resource-type" CONTENT="document">
+<META NAME="distribution" CONTENT="global">
+
+<META NAME="Generator" CONTENT="LaTeX2HTML v2006-1">
+<META HTTP-EQUIV="Content-Style-Type" CONTENT="text/css">
+
+<LINK REL="STYLESHEET" HREF="../jos.css">
+
+<LINK REL="next" HREF="Theory_Operation.html">
+<LINK REL="previous" HREF="What_Bandlimited_Interpolation.html">
+<LINK REL="up" HREF="resample.html">
+<LINK REL="next" HREF="Theory_Operation.html">
+</HEAD>
+
+<BODY >
+<!--Navigation Panel-->
+<STRONG>
+<A NAME="tex2html79"
+  HREF="Theory_Operation.html" 
+ onMouseover="return escape('Theory of Operation')">Next</A> &nbsp;|&nbsp;
+<A NAME="tex2html71"
+  HREF="What_Bandlimited_Interpolation.html" 
+ onMouseover="return escape('What is Bandlimited Interpolation?')">Prev</A> &nbsp;|&nbsp;
+<A HREF="http://ccrma.stanford.edu/~jos/resample/resample.html" 
+ onMouseover="return escape('The Digital Audio Resampling Home Page')">Top</A> 
+		&nbsp;|&nbsp;
+<A HREF="../GlobalJOSIndex.html"
+ onMouseover="return escape('Index of terms in JOS Website')">JOS Index</A> &nbsp;|&nbsp;
+ <A HREF="../pubs.html"
+ onMouseover="return escape('JOS Online Publications')">JOS Pubs</A> &nbsp;|&nbsp;
+<A HREF="http://ccrma.stanford.edu/~jos"
+ onMouseover="return escape('JOS Home Page')">JOS Home</A> &nbsp;|&nbsp;
+<A HREF="../index.html#searchform"
+ onMouseover="return escape('Search JOS Website, CCRMA Website, or Web')">Search</A>
+</STRONG>
+<HR>
+
+<!--End of Navigation Panel-->
+
+<H2><A NAME="SECTION00020000000000000000">
+Free Resampling Software</A>
+</H2>
+	
+<UL>
+<LI><B>Note:</B> 
+<TT><A HREF="https://ccrma.stanford.edu/~jos/resample/" onMouseover="return escape('Bandlimited interpolation is the ideal type of interpolation for properly sampled signals. &nbsp;&#8212;&nbsp; Click for https://ccrma.stanford.edu/~jos/resample/')">resample</A></TT>, 
+<TT>libresample</TT>, and
+<TT>sndfile-resample</TT> 
+(from <TT>libsamplerate</TT>) 
+are already included in the 
+<A NAME="tex2html4"
+  HREF="http://ccrma.stanford.edu/planetccrma/software/">Planet CCRMA Distribution</A>.  If you are running <A HREF="http://www.redhat.com" onMouseover="return escape('Red Hat Inc. is one of many sources for the computer operating system known as &lt;i&gt;Linux&lt;/i&gt;. &nbsp;&#8212;&nbsp; Click for http://www.redhat.com')">Red Hat Linux</A>, check out the Planet.
+
+<P>
+</LI>
+<LI><A NAME="tex2html5"
+  HREF="http://ccrma.stanford.edu/~jos/gz/resample-1.8.1.tar.gz"><TT>resample-1.8.1.tar.gz</TT></A>
+(502 Kbytes) (v1.8.1 released November 11, 2006) 
+<BR>
+The <TT>resample</TT> software package contains free <A HREF="https://ccrma.stanford.edu/~jos/resample/" onMouseover="return escape('Bandlimited interpolation is the ideal type of interpolation for properly sampled signals. &nbsp;&#8212;&nbsp; Click for https://ccrma.stanford.edu/~jos/resample/')">sampling-rate conversion</A>
+and <A HREF="http://www.circuitsage.com/filter.html" onMouseover="return escape('Click for http://www.circuitsage.com/filter.html')">filter design</A> utilities written in C, including a stand-alone
+command-line <A HREF="https://ccrma.stanford.edu/~jos/mdft/Sampling_Theory.html" onMouseover="return escape('The sampling rate of a discrete-time signal is defined as the number of samples per second.  Its units are thus in Hertz (Hz).  Shannon\&#39;s Sampling Theorem states that the original continuous-time signal can be recovered exactly from the samples if and only if the sampling rate is higher than twice the highest frequency present in the original signal.  Any higher frequencies will alias to frequencies below half the sampling rate. &nbsp;&#8212;&nbsp; Click for https://ccrma.stanford.edu/~jos/mdft/Sampling_Theory.html')">sampling-rate</A> conversion utility called
+<TT>resample</TT>. The package <A HREF="http://en.wikipedia.org/wiki/Compiler" onMouseover="return escape('The compiler transforms human-readable source code into machine-readable code. &nbsp;&#8212;&nbsp; Click for http://en.wikipedia.org/wiki/Compiler')">compiles</A> readily under <A HREF="http://www.linuxhq.com" onMouseover="return escape('Click for http://www.linuxhq.com')">Linux</A> and most other
+UNIX operating systems.  It is released under the <A HREF="http://www.gnu.org/" onMouseover="return escape('\&#39;GNU\&#39;s Not Unix\&#39; (GNU) is the collection of free, open-source software that started the free, open-source software movement.  Started by Richard Stallman as a collection of the main system tools in UNIX written in C, it has grown to become a primary component of Unix-compatible operating systems such as the Linux distributions. &nbsp;&#8212;&nbsp; Click for http://www.gnu.org/')">GNU</A> Lesser
+General Public License (<A NAME="tex2html6"
+  HREF="http://www.gnu.org/copyleft/lesser.html">LGPL</A>).
+
+<UL>
+<LI><A NAME="tex2html7"
+  HREF="resample-n.m.README"><TT>README</TT> file for <TT>resample</TT> software 
+		package</A>
+</LI>
+<LI><A NAME="tex2html8"
+  HREF="http://ccrma.stanford.edu/~jos/gz/resample-1.2.tar.gz">Older Version for NeXT Computers
+	(49 Kbytes)</A>
+</LI>
+<LI><A NAME="tex2html9"
+  HREF="./original-source.html">Original 1983+ source for the PDP KL-10</A>
+(Released under the Revised BSD License)
+</LI>
+</UL>
+
+<P>
+</LI>
+<LI><A NAME="tex2html10"
+  HREF="http://ftp.debian.org/pool/main/libr/libresample/"><TT>libresample</TT></A>
+(<A NAME="tex2html11"
+  HREF="http://www.gnu.org/copyleft/lesser.html">LGPL</A>) (version 1.3 released Jan. 7, 2004)
+by Dominic Mazzoni is a real-time <A HREF="http://en.wikipedia.org/wiki/Library_(computer_science)" onMouseover="return escape('Containing both code and data, libraries provide extended functionality to a programming environment. &nbsp;&#8212;&nbsp; Click for http://en.wikipedia.org/wiki/Library_(computer_science)')">library</A> for <A HREF="http://www.dsprelated.com/dspbooks/mdft/Sampling_Theory.html" onMouseover="return escape('Sampling is the process of converting a continuous-time signal into a discrete-time signal. &nbsp;&#8212;&nbsp; Click for http://www.dsprelated.com/dspbooks/mdft/Sampling_Theory.html')">sampling</A> rate 
+	conversion providing several useful features relative to 
+	<TT>resample-1.7</TT> on which it is based:
+
+<UL>
+<LI>It should build ``out of the box'' on more platforms, including
+      Linux, Solaris, and Mac OS X
+      (using the included <TT>configure</TT> script).  
+      There is also a Visual C++ project file for building under Windows.
+</LI>
+<LI>Input and output <A HREF="http://www.dsprelated.com/dspbooks/filters/Definition_Signal.html" onMouseover="return escape('A signal is typically a real-valued function of time. A discrete-time signal is typically a real-valued function of discrete time, and is therefore a time-ordered sequence of real numbers. &nbsp;&#8212;&nbsp; Click for http://www.dsprelated.com/dspbooks/filters/Definition_Signal.html')">signals</A> are in memory (as opposed to sound files).
+</LI>
+<LI>Computations are in floating-point (instead of <A HREF="https://ccrma.stanford.edu/~jos/mdft/Binary_Integer_Fixed_Point_Numbers.html" onMouseover="return escape('Click for https://ccrma.stanford.edu/~jos/mdft/Binary_Integer_Fixed_Point_Numbers.html')">fixed-point</A>).
+</LI>
+<LI><A HREF="https://ccrma.stanford.edu/~jos/filters/What_Filter.html" onMouseover="return escape('Click for https://ccrma.stanford.edu/~jos/filters/What_Filter.html')">Filter</A> table increased by a factor of 32, yielding more accurate results, even
+  	without <A HREF="https://ccrma.stanford.edu/~jos/pasp/Linear_Interpolation.html" onMouseover="return escape('Click for https://ccrma.stanford.edu/~jos/pasp/Linear_Interpolation.html')">linear interpolation</A> (which also makes it faster).
+</LI>
+<LI>Data can be processed in small chunks, enabling time-varying
+      <A HREF="https://ccrma.stanford.edu/~jos/resample/" onMouseover="return escape('Bandlimited interpolation is the ideal type of interpolation for properly sampled signals. &nbsp;&#8212;&nbsp; Click for https://ccrma.stanford.edu/~jos/resample/')">resampling</A> ratios (ideal for time-warping applications and supporting
+      an ``external clock input'' in software).
+</LI>
+<LI>Easily applied to any number of simultaneous data channels
+</LI>
+<LI><A NAME="tex2html12"
+  HREF="README-libresample-0.1.3.txt"><TT>README</TT> file for <TT>libresample-0.1.3</TT></A>
+</LI>
+</UL>
+
+<P>
+</LI>
+<LI><A NAME="tex2html13"
+  HREF="https://github.com/dnault-laszlo/libresample4j"><TT>libresample4j</TT></A>
+is a Java port of <TT>libresample</TT> for real-time sampling-rate
+  conversion by <A NAME="tex2html14"
+  HREF="https://github.com/dnault-laszlo"><TT>dnault-laszlo</TT>.</A>
+<P>
+</LI>
+<LI>Erik de Castro Lopo's ``SecretRabbitCode''
+  <A NAME="tex2html15"
+  HREF="http://www.mega-nerd.com/SRC/"><TT>libsamplerate</TT></A>
+<UL>
+<LI>Same basic algorithm
+</LI>
+<LI>Floating-point (<TT>resample</TT> is <A HREF="https://ccrma.stanford.edu/~jos/mdft/Binary_Integer_Fixed_Point_Numbers.html" onMouseover="return escape('Click for https://ccrma.stanford.edu/~jos/mdft/Binary_Integer_Fixed_Point_Numbers.html')">fixed-point</A>--sometimes needed on <A HREF="http://www.dsptutor.freeuk.com/" onMouseover="return escape('The subject of &lt;i&gt;Digital Signal Processing&lt;/i&gt; (DSP) is concerned with the computational processing of digital signals.  An example digital signal is music from a compact disk (CD).  An example DSP task is modifying the tone of a digital audio stream, such as boosting its bass or treble.  Another DSP example is compressing digital audio into MP3 format, or decoding an MP3 stream. &nbsp;&#8212;&nbsp; Click for http://www.dsptutor.freeuk.com/')">DSP</A> chips)
+</LI>
+<LI>Configures for non-Linux platforms such as Mac OS X and Windows
+</LI>
+<LI>Includes the command-line program
+	<TT>sndfile-resample</TT> which works like <TT>resample</TT>
+</LI>
+<LI>Uses Erik's <TT>libsndfile</TT> (<TT>resample</TT> uses Bill Schottstaedt's <TT><A HREF="https://ccrma.stanford.edu/CCRMA/Software/sndlib/" onMouseover="return escape('Click for https://ccrma.stanford.edu/CCRMA/Software/sndlib/')">sndlib</A></TT>)
+</LI>
+<LI>License is either <A HREF="http://www.fsf.org/copyleft/gpl.html" onMouseover="return escape('Click for http://www.fsf.org/copyleft/gpl.html')">GPL</A> or commercial (<TT>resample</TT> is <A HREF="http://www.gnu.org/copyleft/lesser.html" onMouseover="return escape('Click for http://www.gnu.org/copyleft/lesser.html')">LGPL</A>)
+</LI>
+</UL>
+
+<P>
+</LI>
+<LI><A NAME="tex2html16"
+  HREF="http://sourceforge.net/projects/osalp/">The free Open Source Audio Library
+  Project (OSALP)</A>
+(<A NAME="tex2html17"
+  HREF="http://www.gnu.org/copyleft/lesser.html">LGPL</A>) contains a
+  C++ class based on <TT>resample</TT>.
+
+<P>
+</LI>
+<LI>The <A NAME="tex2html18"
+  HREF="http://www.speex.org"><I>Speex</I></A>
+speech coder/decoder (based on CELP) contains a variation of the
+  <TT>resample</TT> algorithm in the file <TT>resample.c</TT>, is free
+  and <A HREF="http://www.opensource.org/" onMouseover="return escape('Program developers may choose to openly distribute the source code to their programs.  This open-source development paradigm makes it easier for a large development community to work together because anyone can can see what code everyone else is writing. In addition, it makes it possible for independent developers to make use of one another\&#39;s code. &nbsp;&#8212;&nbsp; Click for http://www.opensource.org/')">open-source</A>, and is released under a BSD-style license (<I>i.e.</I>,
+  free for both commercial and noncommercial uses).  The code is
+  characterized as ``working, but it's in a very early stage, so it
+  may have artifacts ... the <A HREF="http://en.wikipedia.org/wiki/Application_programming_interface" onMouseover="return escape('API stands for Application Programming Interface.  For example, the rules for calling functions in a software library may be considered part of the library\&#39;s API. &nbsp;&#8212;&nbsp; Click for http://en.wikipedia.org/wiki/Application_programming_interface')">API</A> isn't stable ...''.  However,
+  this appears to be the best BSD-licensed starting point.
+
+<P>
+</LI>
+<LI>Website comparing various sampling-rate converters:
+  <A NAME="tex2html19"
+  HREF="http://src.infinitewave.ca/"><TT>http://src.infinitewave.ca/</TT></A>
+<P>
+</LI>
+<LI>Paper on optimal FIR interpolation filter design: 
+<A NAME="tex2html20"
+  HREF="http://ccrma.stanford.edu/~jos/pdf/optfir.pdf">(.pdf)</A>
+<P>
+</LI>
+</UL>
+
+<P>
+To report bugs, or contribute enhancements, please send email to
+<TT><A HREF="https://ccrma.stanford.edu/~jos" onMouseover="return escape('Julius Smith\&#39;s Home Page &nbsp;&#8212;&nbsp; Click for https://ccrma.stanford.edu/~jos')">jos</A></TT> (
+<A NAME="tex2html21"
+  HREF="http://www.w3k.org/cgi-bin/register.cgi?email_jos">send email</A>
+).
+
+<P>
+
+<P>
+<HR>
+<!--Navigation Panel--><STRONG>
+<A NAME="tex2html79"
+  HREF="Theory_Operation.html" 
+ onMouseover="return escape('Theory of Operation')">Next</A> &nbsp;|&nbsp;
+<A NAME="tex2html71"
+  HREF="What_Bandlimited_Interpolation.html" 
+ onMouseover="return escape('What is Bandlimited Interpolation?')">Prev</A> &nbsp;|&nbsp;
+<A HREF="http://ccrma.stanford.edu/~jos/resample/resample.html" 
+ onMouseover="return escape('The Digital Audio Resampling Home Page')">Top</A> 
+		&nbsp;|&nbsp;
+<A HREF="../GlobalJOSIndex.html"
+ onMouseover="return escape('Index of terms in JOS Website')">JOS Index</A> &nbsp;|&nbsp;
+ <A HREF="../pubs.html"
+ onMouseover="return escape('JOS Online Publications')">JOS Pubs</A> &nbsp;|&nbsp;
+<A HREF="http://ccrma.stanford.edu/~jos"
+ onMouseover="return escape('JOS Home Page')">JOS Home</A> &nbsp;|&nbsp;
+<A HREF="../index.html#searchform"
+ onMouseover="return escape('Search JOS Website, CCRMA Website, or Web')">Search</A>
+</STRONG>
+<!--End of Navigation Panel-->
+<ADDRESS>
+<HR>Download <A HREF="./resample.pdf"> resample.pdf</A><BR>
+<A HREF="resample-citation.html">[How to cite and copy this work]</A>&nbsp;&nbsp;<A HREF="http://www.w3k.org/cgi-bin/register.cgi?email_jos">[Comment on this page via email]</A><BR><HR><H5>``<A HREF="http://ccrma.stanford.edu/&#126;jos/resample/">The Digital Audio Resampling Home Page</A>'',
+ by <A href="http://ccrma.stanford.edu/&#126;jos/"> Julius O. Smith III</A>.<BR>
+Copyright &#169; <I>2011-03-29</I> by <A href="http://ccrma.stanford.edu/&#126;jos/"> Julius O. Smith III</A><BR>
+<A href="http://ccrma.stanford.edu/">
+	Center for Computer Research in Music and Acoustics (CCRMA),</A>
+&nbsp;
+<A href="http://www.stanford.edu/"> Stanford University</A><BR>
+<A HREF="http://ccrma.stanford.edu/">
+	<IMG ALIGN="MIDDLE" SRC=../icons/CCRMALogoSmall.gif alt="CCRMA"></A>
+</H5>
+
+<script language="JavaScript" type="text/javascript" src="../wz_tooltip.js"></script>
+</ADDRESS>
+</BODY>
+</HTML>
+
+------------LTD4Fd0ifg85DHQ9QmB4Iq
+Content-Disposition: inline; filename=jos.css
+Content-Type: text/css; charset=UTF-8; name=jos.css
+Content-Location: https://ccrma.stanford.edu/~jos/jos.css
+Content-Transfer-Encoding: 8bit
+
+body {
+	background-color:white
+	font-size:12pt;
+	font-family:"Times New Roman", serif;
+}
+/* font-family:"Lucida Grande", sans-serif; */
+/* more sans-serif: Verdana,Arial */
+
+tt { font-size:12pt; }
+pre { font-size:12pt; }
+
+IMG.inline {vertical-align:middle;}
+/* IMG.inline {border:solid blue 1px;} */ /* testing 1 2 */ 
+
+A:link {text-decoration: none; color:#000088}
+A:visited {text-decoration: none; color:gray}
+A:active {text-decoration: none; color:blue}
+A:hover {text-decoration: underline; color: red;}
+
+/* horizontal rule */
+
+hr {
+	border: 2px outset blue;
+	width: 100%;
+	height: 4px;
+	margin: 10px auto 0 0;
+	text-align: left;
+	}	
+
+title {color: #000040}
+
+/* http://notjustahatrack.com/posts/styling-the-sup-tag/ */
+suphide {
+	height: 0;
+	line-height: 1;
+	position: relative;
+	top: -0.6em;
+	vertical-align: baseline !important;
+	vertical-align: bottom;
+}
+
+/* Compensate somewhat for math images with large blank space beneath
+   (anything with descenders such as \rho) */
+p { line-height: 1.5; }
+caption { line-height: 1.5; }
+
+
+------------LTD4Fd0ifg85DHQ9QmB4Iq
+Content-Disposition: inline; filename=CCRMALogoSmall.gif
+Content-Type: image/gif; name=CCRMALogoSmall.gif
+Content-Location: https://ccrma.stanford.edu/~jos/icons/CCRMALogoSmall.gif
+Content-Transfer-Encoding: Base64
+
+R0lGODlhpAAkAKU7AJ+yvX2WrBA2bxM5aGmZuX+OnR9YhJOcoNHLnrKysYicrHR8
+gRAyZCRmlSxeiY+XngkkTMXHyQ02fm16g1dgamuSr6G2w6qyuC1ok4ivyM/Oz5aq
+uMzMzIeTnCxxnxlFcpSxw769oBxPe2NygmyFmBFEZpairSFdicrNz3qSqCdunxg7
+bICJkHeGkdTU1b3BxSZIdgwwbZO2zQorYX6etShUe97ajyt6rLrByK68xoinu///
+/9DR0MvLyyBbhqy3wCH5BAEAADsALAAAAACkACQAQAb+wJJwSCwaj8ikcslsOp/Q
+KLNCrWo2JJIHg3GcTo2GykP23M43Qg/Ebss4uOy2+w2PzWY0IZLpZ3ACgYErKx8f
+MDU1DhgjJCkRBS4vNC8uFy0tC5qbPBg+n6AUmxMJLhoWY2hnCZsXGjQbKrKzKgE6
+Pzo8Fyy8BR2/wB0Pww8HxgoKQjkVOTUzDIEDERYWOyMuPxw5OrkR2T0/ETkAPS8/
+PSPPgR8JGz05GSA5PQC6POd8OVc4OD8uLjlmCBwYI4agQocQUQCoIYILHRp4WMDB
+gYSIiwYMUCCR0YAPCiZGoPgCpgGMHhjsqGD14hTADWFiLrBhY4GDBg5o2uih4Vz+
+D4g8evbgwUEHhx8HNAjZsQPFjgsSogooWGDECBMa6uWYlw3Hg1+8WCQgliOqVAEw
+XvCYV89EARM8NkSoAWMFhLsUuJU1K4AGDwVmJUz9oQvbvRSINwwqxGAoDxAuRlyc
+3FFEggCYA2jwQjIBjc+gN5A88amyCEMlGNyFQEGn63dFexwVQqG2bQosTLCgYHXE
+hA4RgvN48UKYsePIiX0FdoGejh4REryAVKC69evVoyfYnkDXhoaIU3AfTz5BhMwB
+duDgcf7F+Bc7ImzADPpz+fv489+PwE1HDvcAKFVCFVQQUAEBCBKwg1oooIDDBvxE
+wEEb1FRogQwYZqghhhz+sBcBPyjI5oKGGcjgRwYu8KPiihG6hFl41mEio4ybaOKg
+ij/UqGOKK0ag43QbBLmBArxc8I8lLBTAQjDBKHeMAiYkM2AVKSjSyAgOlLIDDwC4
+AIJe9LwwwZhkdpCDig440AgJGDwAgh9CuZJNDuW9sE0OBeUpiAAJKYJBFinAFSAO
+Frig4wI8dOQRKB9N4NuWHqg0CxmsLHBBXHHRokJMm15AWFiX/gDhBb/AFVEEx/2w
+FFMOFCTICwDswMII6nXJTU/RTXfOUS9w8AAJegrAAgobaJPLOS8UcAEH9ejgwkRB
+AcCBNgXNUFBgZjGQlgstuNJlChvs4IK4MBhyETv+D1nU0UYekUTBDhpokFJMCQCw
+waU5wCLTAiSVltFFM+10zwbkvKCACzSFIBRtt5nw1EDWunoQISsMMIBqD5ig8XHE
+XMAAxBIvRojFqlHQwwU4JHBmYALMQ48LBVQL8czPuNpBeg9+F4Fkk120Qg8ufBbA
+Z5v5MNrRpIGi6GSopbbaann1d2s43ghRhYEJJrjDNpXo0EcbbFgo9oZkZygRwXCQ
+feLaffRHg7g4APQijDHOSOOheOedt90thOV3L74w+YuTByCjsdUEHnggDyRw9gkY
+eaBRwQtgs1H2X44bLYYqN1TAB9uALGZIn4qo+QJiBTiUgwsR2K1jRYx+lDf+CpGv
+UuMOFsRCiweVvOCfC2F1EHiThB8QJeJVxBHAkGxiAEMHL/ykwwsmYJCKHjRQ04YL
+JCyvgxbOP1DJD4S90AIGtROAYh857HlQn4s4okAHQ0FYzwV4u+BA7J+IMsECHXAB
+ByoghjugoVILAEjuNDULDLzjZH4L4D9INbhhHAcZyqACDghxiBr8DAQLeogGtuEf
+b0AnHISaRwQChBBEwCACj4mHBXrCATlpow/PQlsOthYDgoTMEIhIExcSMBFTdOkB
+WzrTDxSlqP5ZpRTz4hQtWBHAichnUzEJQ2tewwsX/IR8GujApeQDgLgZIwJLqYAG
+PmYtAaxgB5AJCTb+jAWRcPTqB73KwQojoAEYCMRVL+jHKUAQAXrwoAC9sgAPdCCh
+AKEgQCOkmcQEI4FCrOAAl3KWP3JwgdXxwAE9E0EHLMCRdZkAAEc7ibyymAAcaKBX
+54GJFmlCAaTVIGGKHGFwZhgBBWgAAeX4AQqEoANqvABbP3uBVbBSDxrMo1gXMMFR
+gkOOCwwDWxLwVNz0Ia0LKItZi1xLQ+5hAf9cSzA9MAC2asAlbm2tUOFJAQoQYghp
+4C4OGGGiDwxwsw3oAwN1aEAp4haBz4jmaP5iGm1oAsx68QBhNAHHqRhmmxdMxYcC
+cADVPjSCD1RMNatJAMfE9wGZ5ekDI/gBP0L+4tGLPW0BP2jHXqSSAw405AOCqRYF
+4sXTeI3AIIJYiMsKxbOeGWAF4qAPDTYzmgT0NF4m+IK/DNCzDwgBpCGVWn9QQDUA
+ULQ2LNjBhHqQgBVEzH0jY8ADeqCxjSVnOWQdwFn3RDEGjCACbnmLuLbGMg1wA54R
+EADNZsaAj10mAD/QQALw1dGeUaBQ+arPZhYFCqkyiolVteoQsHoXBviuP5IAADm+
+ehvb9GZMC8AEL4DhpGK4dhhMWtYFRoWd2lonBQWIJ2LENa4fhIcwG8ieC1IQAMSg
+57jIFZpSaTC0+jj3ufXZUtxQoNXqWrc/FmCWPpB3oKwhSD1E3IHX4kH+IbGNrWwb
+SpG90qY2tvlBaiDcWnDnhtvr8A0Tesuv3uz2t78JT3AVJMZx2spd7373BQSohAzG
+CzbzVgi9ZFuLqDiAAhK590Ra3Vorz1Nc1NWNb/oN8X5n9LcDAO6/gitelEzA3QIl
+qEMp8ITmVCA5V+IABBUCAYRl4IINyBgMND5DAHCQIdCJDogwQIQiTNCDDuM2Aky5
+hOtqpD9GiQJvA+QcAhdQCd3NAgAsSJHOVjs84lnwgiyeUuJGyAU6kGRznLtB5Szg
+BgxFhgucqUOQOfectYXuyEkuHSNIkKwCqMefO5jRoXjAvytvAj48uEHtboDAUtiL
+gRgYzvR00Qv+FLO2eMZrMQc2kAIFBKB5afJB6QpIBlWQt3IoKPWp8eyARPhJFq3W
+Qw9Q0Ic/vw9+fyIBkUyAjS9ZIhOH+gH/ZLcJ9bjAA7hWBQLFGiQGymI62d3FagEM
+6jQTqBONKG7jFjAUW/31ZNdDwwvoDAINWKV7sx5BD/rApXJkJQJaUAUBVGbOYA2i
+g2kKtwK6Qw59vOBQFclIo/+3ALigQFJl8EClHvCsK1hbFhUoYvC8OEMKZsytxlBV
+CXRABR4EOk0OeICztqQVMFHtHBUqJE8cEMRFjCAHb6J3NkJ1QxT1IEgj3Eqehv7v
+JAuxEQfgQKGyYigkMqUTTKQsb3zjAgD+ZJGBlRJrobycxTAwAoagYtYGCPMLAQJA
+LUg5gMiXUYGfutEQB+CSNbAxQm4EBx8oJIc3qPfvD1AgQDiXx6g1wHN4ZOAeX9IG
+QGbmbyAmgubv4AHLxwUQGrigBkvDgMI/EpKKlESL0J4FK7oDgoF1vQFbdM1OWHAP
+HKyQ8F48Rz/uEfc09vGPAmAAHIdzjcSSsCeuBIc4zhGOHjgA9wIwx3rexJZDpqhQ
+/rnCtAq1FkkCdR1AXEElcnAPSdAgQE0J5QfwrSiQdOLNJ+jAKuklLgv4Q18x2SIF
+GjAanUhf6Tzhxz2EghQBbW0HftRGAyBeOyBHRTQ1J/NKyGJCL0D+AX9kEAlwMjd0
+D/7wTc3CcRrALPESECBjECyTew/QLe0ULhFwKY/0AT3zM6RUfvozGgaQAIkVRQKl
+AxtwLPAnf6PhL1sEQ2uBAwDAfciAADRxDz0gBE6xAymALSxQDcuUFTzgTMRyMs3h
+DsL3Ag/wA9hyEuewDXFigeFUUy6wSD1gAXiiJySALcnHdC0AL98ydtnQUaMjAu9y
+ChYhAhnhAJt3AuO3AaYgg60kXAZFfwi1T1R1LiWgE16ENv6gE4kVPUuRAQTAAerE
+F/K2TODkHyfDVg/QEKLVEiYwDA7AMh9gDiM0arqgLE5oChtQGD9QTjMlGGeHhgVQ
+KEbCS+H+wQMeRE8SpA91mE8d8TOY8R0A1RkNQiwGNYj/YohOs0UIMC2vIVE9IQS5
+gQImQAGhOHQx4AB49YQj5EWM41JP0wPGMAwYEBVEBxdjCDNvcUjguBqT0EksEyCd
+IBUFgVTiwn2+lQIusAIHMQBElIFEFUrrwmHMxVSd8VwHlTSmcRpX9TSpZwOfFSA+
+4VUlUFrewHjXJzIfBVLGYwIjlQNs9IAZSTEVA44UgAN0AiEskw1+9QNT0UODJRCF
+BVQM4BDaw4ShdBEBlC/NZZBIM4iEWIinoVmcdRf8oVW4UoKktYbTY1YPSFcUYzEQ
+kABt5ZHjCFsR4JRzNTElCQHGs47wgMcyN7ZCXgQDMBmTNRMDENBk2RAk91BU59Id
+KOBcRfM4SHNZCzmUm/U0d2ECWkWBOoADpPUuTBEBJpMAI7AChVVYA7ACFBCByGGV
+IwVbv0BWiVlYuccAAwADB1CCeVUdJkA+rygAVwAhOIAYF4CWMhkDFEBcy9Nj/rAB
+jeUzDoECzQUak7V5yxZ1maVZV7WYhQUDUkNN0jKYpXVaE0AcL2BiAYYcV0kMwdAc
+9oIDhWZbtaVbgVJ1XZKPj+BX5YQNToZcAZADKBABtpkZzKVUtwld7AkaYoYD1HVd
+8tkfZ1IvAiIF+Jmf+rmf/NmfUBAEADs=
+
+------------LTD4Fd0ifg85DHQ9QmB4Iq
+Content-Disposition: inline; filename=wz_tooltip.js
+Content-Type: application/x-javascript; charset=UTF-8; name=wz_tooltip.js
+Content-Location: https://ccrma.stanford.edu/~jos/wz_tooltip.js
+Content-Transfer-Encoding: Base64
+
+LyogVGhpcyBub3RpY2UgbXVzdCBiZSB1bnRvdWNoZWQgYXQgYWxsIHRpbWVzLgoK
+d3pfdG9vbHRpcC5qcyAgICB2LiAzLjQ1CgpUaGUgbGF0ZXN0IHZlcnNpb24gaXMg
+YXZhaWxhYmxlIGF0Cmh0dHA6Ly93d3cud2FsdGVyem9ybi5jb20Kb3IgaHR0cDov
+L3d3dy5kZXZpcmEuY29tCm9yIGh0dHA6Ly93d3cud2FsdGVyem9ybi5kZQoKQ29w
+eXJpZ2h0IChjKSAyMDAyLTIwMDUgV2FsdGVyIFpvcm4uIEFsbCByaWdodHMgcmVz
+ZXJ2ZWQuCkNyZWF0ZWQgMS4gMTIuIDIwMDIgYnkgV2FsdGVyIFpvcm4gKFdlYjog
+aHR0cDovL3d3dy53YWx0ZXJ6b3JuLmNvbSApCkxhc3QgbW9kaWZpZWQ6IDIyLiAx
+LiAyMDA3CgpDcm9zcy1icm93c2VyIHRvb2x0aXBzIHdvcmtpbmcgZXZlbiBpbiBP
+cGVyYSA1IGFuZCA2LAphcyB3ZWxsIGFzIGluIE5OIDQsIEdlY2tvLUJyb3dzZXJz
+LCBJRTQrLCBPcGVyYSA3KyBhbmQgS29ucXVlcm9yLgpObyBvbm1vdXNlb3V0cyBy
+ZXF1aXJlZC4KQXBwZWFyYW5jZSBvZiB0b29sdGlwcyBjYW4gYmUgaW5kaXZpZHVh
+bGx5IGNvbmZpZ3VyZWQKdmlhIGNvbW1hbmRzIHdpdGhpbiB0aGUgb25tb3VzZW92
+ZXJzLgoKTElDRU5TRTogTEdQTAoKVGhpcyBsaWJyYXJ5IGlzIGZyZWUgc29mdHdh
+cmU7IHlvdSBjYW4gcmVkaXN0cmlidXRlIGl0IGFuZC9vcgptb2RpZnkgaXQgdW5k
+ZXIgdGhlIHRlcm1zIG9mIHRoZSBHTlUgTGVzc2VyIEdlbmVyYWwgUHVibGljCkxp
+Y2Vuc2UgKExHUEwpIGFzIHB1Ymxpc2hlZCBieSB0aGUgRnJlZSBTb2Z0d2FyZSBG
+b3VuZGF0aW9uOyBlaXRoZXIKdmVyc2lvbiAyLjEgb2YgdGhlIExpY2Vuc2UsIG9y
+IChhdCB5b3VyIG9wdGlvbikgYW55IGxhdGVyIHZlcnNpb24uCgpUaGlzIGxpYnJh
+cnkgaXMgZGlzdHJpYnV0ZWQgaW4gdGhlIGhvcGUgdGhhdCBpdCB3aWxsIGJlIHVz
+ZWZ1bCwKYnV0IFdJVEhPVVQgQU5ZIFdBUlJBTlRZOyB3aXRob3V0IGV2ZW4gdGhl
+IGltcGxpZWQgd2FycmFudHkgb2YKTUVSQ0hBTlRBQklMSVRZIG9yIEZJVE5FU1Mg
+Rk9SIEEgUEFSVElDVUxBUiBQVVJQT1NFLgoKRm9yIG1vcmUgZGV0YWlscyBvbiB0
+aGUgR05VIExlc3NlciBHZW5lcmFsIFB1YmxpYyBMaWNlbnNlLApzZWUgaHR0cDov
+L3d3dy5nbnUub3JnL2NvcHlsZWZ0L2xlc3Nlci5odG1sCiovCgovLy8vLy8vLy8v
+Ly8vLy8vICBHTE9CQUwgVE9PUFRJUCBDT05GSUdVUkFUSU9OICAvLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8KdmFyIHR0QWJvdmUgICAgICAgPSBmYWxzZTsgICAgICAgIC8v
+IHRvb2x0aXAgYWJvdmUgbW91c2Vwb2ludGVyPyBBbHRlcm5hdGl2ZTogdHJ1ZQov
+L2pvczogdmFyIHR0QmdDb2xvciAgICAgPSAiI2U2ZWNmZiI7CnZhciB0dEJnQ29s
+b3IgICAgID0gIiNmMGYwZmYiOwp2YXIgdHRCZ0ltZyAgICAgICA9ICIiOyAgICAg
+ICAgICAgLy8gcGF0aCB0byBiYWNrZ3JvdW5kIGltYWdlOwovL2pvczogdmFyIHR0
+Qm9yZGVyQ29sb3IgPSAiIzAwMzM5OSI7CnZhciB0dEJvcmRlckNvbG9yID0gIiMw
+MDAwNDAiOwp2YXIgdHRCb3JkZXJXaWR0aCA9IDE7CnZhciB0dENsaWNrQ2xvc2Ug
+ID0gZmFsc2U7Ci8vam9zOiB2YXIgdHREZWxheSAgICAgICA9IDUwMDsgICAgICAg
+ICAgLy8gdGltZSBzcGFuIHVudGlsIHRvb2x0aXAgc2hvd3MgdXAgW21pbGxpc2Vj
+b25kc10KdmFyIHR0RGVsYXkgICAgICAgPSAwOyAgICAgICAgICAvLyB0aW1lIHNw
+YW4gdW50aWwgdG9vbHRpcCBzaG93cyB1cCBbbWlsbGlzZWNvbmRzXQp2YXIgdHRG
+b250Q29sb3IgICA9ICIjMDAwMDY2IjsKdmFyIHR0Rm9udEZhY2UgICAgPSAiYXJp
+YWwsaGVsdmV0aWNhLHNhbnMtc2VyaWYiOwp2YXIgdHRGb250U2l6ZSAgICA9ICIx
+MXB4IjsKdmFyIHR0Rm9udFdlaWdodCAgPSAibm9ybWFsIjsgICAgIC8vIGFsdGVy
+bmF0aXZlOiAiYm9sZCI7CnZhciB0dExlZnQgICAgICAgID0gZmFsc2U7ICAgICAg
+ICAvLyB0b29sdGlwIG9uIHRoZSBsZWZ0IG9mIHRoZSBtb3VzZT8gQWx0ZXJuYXRp
+dmU6IHRydWUKdmFyIHR0T2Zmc2V0WCAgICAgPSAxMjsgICAgICAgICAgIC8vIGhv
+cml6b250YWwgb2Zmc2V0IG9mIGxlZnQtdG9wIGNvcm5lciBmcm9tIG1vdXNlcG9p
+bnRlcgp2YXIgdHRPZmZzZXRZICAgICA9IDE1OyAgICAgICAgICAgLy8gdmVydGlj
+YWwgb2Zmc2V0ICAgICAgICAgICAgICAgICAgICIKdmFyIHR0T3BhY2l0eSAgICAg
+PSAxMDA7ICAgICAgICAgIC8vIG9wYWNpdHkgb2YgdG9vbHRpcCBpbiBwZXJjZW50
+IChtdXN0IGJlIGludGVnZXIgYmV0d2VlbiAwIGFuZCAxMDApCnZhciB0dFBhZGRp
+bmcgICAgID0gMzsgICAgICAgICAgICAvLyBzcGFjaW5nIGJldHdlZW4gYm9yZGVy
+IGFuZCBjb250ZW50CnZhciB0dFNoYWRvd0NvbG9yID0gIiI7CnZhciB0dFNoYWRv
+d1dpZHRoID0gMDsKLy9qb3M6IHZhciB0dFN0YXRpYyAgICAgID0gZmFsc2U7ICAg
+ICAgICAvLyB0b29sdGlwIE5PVCBtb3ZlIHdpdGggdGhlIG1vdXNlPyBBbHRlcm5h
+dGl2ZTogdHJ1ZQp2YXIgdHRTdGF0aWMgICAgICA9IHRydWU7ICAgICAgICAvLyB0
+b29sdGlwIE5PVCBtb3ZlIHdpdGggdGhlIG1vdXNlPyBBbHRlcm5hdGl2ZTogdHJ1
+ZQp2YXIgdHRTdGlja3kgICAgICA9IGZhbHNlOyAgICAgICAgLy8gZG8gTk9UIGhp
+ZGUgdG9vbHRpcCBvbiBtb3VzZW91dD8gQWx0ZXJuYXRpdmU6IHRydWUKLy9qb3M6
+V2UgY291bGQgZ2V0IGJ5IGJ5IHNldHRpbmcgc3RpY2t5IHRydWUgZHluYW1pY2Fs
+bHkgb25seSB3aGVuIHRoZSB0b29sdGlwIGNvbnRhaW5zIGxpbmtzLiAgSG93ZXZl
+ciwgd2UgcGxhbiB0byBhbHdheXMgaGF2ZSBzZXZlcmFsIGxpbmtzIGluIHRoZSBu
+ZWFyIGZ1dHVyZS4KLy9qb3M6dmFyIHR0U3RpY2t5ICAgICAgPSB0cnVlOyAgIC8v
+IGRvIE5PVCBoaWRlIHRvb2x0aXAgb24gbW91c2VvdXQ/IEFsdGVybmF0aXZlOiB0
+cnVlCnZhciB0dFRlbXAgICAgICAgID0gNTAwMDsgICAgICAgICAvLyB0aW1lIHNw
+YW4gdW50aWwgdG9vbHRpcCBkaXNhcHBlYXJzOyAwICh6ZXJvKSBtZWFucyAiaW5m
+aW5pdGUgdGltZXNwYW4iIFt3YXMgMCB0aWwgMTEvMTBdCnZhciB0dFRleHRBbGln
+biAgID0gImxlZnQiOwp2YXIgdHRUaXRsZUNvbG9yICA9ICIjZmZmZmZmIjsgICAg
+Ly8gY29sb3Igb2YgY2FwdGlvbiB0ZXh0CnZhciB0dFdpZHRoICAgICAgID0gMzAw
+OwovLy8vLy8vLy8vLy8vLy8vLy8vLyAgRU5EIE9GIFRPT0xUSVAgQ09ORklHICAv
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8KCgovLy8vLy8vLy8vLy8vLyAgVEFHUyBX
+SVRIIFRPT0xUSVAgRlVOQ1RJT05BTElUWSAgLy8vLy8vLy8vLy8vLy8vLy8vLy8K
+Ly8gTGlzdCBtYXkgYmUgZXh0ZW5kZWQgb3Igc2hvcnRlbmVkOgovL2pvczogdmFy
+IHR0X3RhZ3MgPSBuZXcgQXJyYXkoImEiLCJhcmVhIiwiYiIsImJpZyIsImNhcHRp
+b24iLCJjZW50ZXIiLCJjb2RlIiwiZGQiLCJkaXYiLCJkbCIsImR0IiwiZW0iLCJo
+MSIsImgyIiwiaDMiLCJoNCIsImg1IiwiaDYiLCJpIiwiaW1nIiwiaW5wdXQiLCJs
+aSIsIm1hcCIsIm9sIiwicCIsInByZSIsInMiLCAic2VsZWN0IiwgInNtYWxsIiwi
+c3BhbiIsInN0cmlrZSIsInN0cm9uZyIsInN1YiIsInN1cCIsInRhYmxlIiwidGQi
+LCJ0ZXh0YXJlYSIsInRoIiwidHIiLCJ0dCIsInUiLCJ2YXIiLCJ1bCIsImxheWVy
+Iik7CnZhciB0dF90YWdzID0gbmV3IEFycmF5KCJhIik7Ci8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8vLy8v
+Ly8vLy8vLwoKCi8vLy8vLy8vLyBET04nVCBDSEFOR0UgQU5ZVEhJTkcgQkVMT1cg
+VEhJUyBMSU5FIC8vLy8vLy8vLy8vLy8vLy8vLy8vLwp2YXIgdHRfb2JqID0gbnVs
+bCwgICAgICAgICAvLyBjdXJyZW50IHRvb2x0aXAKdHRfaWZybSA9IG51bGwsICAg
+ICAgICAgICAgLy8gaWZyYW1lIHRvIGNvdmVyIHdpbmRvd2VkIGNvbnRyb2xzIGlu
+IElFCnR0X29ialcgPSAwLCB0dF9vYmpIID0gMCwgIC8vIHdpZHRoIGFuZCBoZWln
+aHQgb2YgdHRfb2JqCnR0X29ialggPSAwLCB0dF9vYmpZID0gMCwKdHRfb2ZmWCA9
+IDAsIHR0X29mZlkgPSAwLAp4bGltID0gMCwgeWxpbSA9IDAsICAgICAgICAvLyBy
+aWdodCBhbmQgYm90dG9tIGJvcmRlcnMgb2YgdmlzaWJsZSBjbGllbnQgYXJlYQp0
+dF9zdXAgPSBmYWxzZSwgICAgICAgICAgICAvLyB0cnVlIGlmIFRfQUJPVkUgY21k
+CnR0X3N0aWNreSA9IGZhbHNlLCAgICAgICAgIC8vIHR0X29iaiBzdGlja3k/CnR0
+X3dhaXQgPSBmYWxzZSwKdHRfYWN0ID0gZmFsc2UsICAgICAgICAgICAgLy8gdG9v
+bHRpcCB2aXNpYmlsaXR5IGZsYWcKdHRfc3ViID0gZmFsc2UsICAgICAgICAgICAg
+Ly8gdHJ1ZSB3aGlsZSB0b29sdGlwIGJlbG93IG1vdXNlcG9pbnRlcgp0dF91ID0g
+InVuZGVmaW5lZCIsCnR0X21mID0gbnVsbCwgICAgICAgICAgICAgIC8vIHN0b3Jl
+cyBwcmV2aW91cyBtb3VzZW1vdmUgZXZ0aGFuZGxlcgovLyBPcGVyYTogZGlzYWJs
+ZSBocmVmIHdoZW4gaG92ZXJpbmcgPGE+CnR0X3RhZyA9IG51bGw7ICAgICAgICAg
+ICAgIC8vIHN0b3JlcyBob3ZlcmVkIGRvbSBub2RlLCBocmVmIGFuZCBwcmV2aW91
+cyBzdGF0dXNiYXIgdHh0CgoKdmFyIHR0X2RiID0gKGRvY3VtZW50LmNvbXBhdE1v
+ZGUgJiYgZG9jdW1lbnQuY29tcGF0TW9kZSAhPSAiQmFja0NvbXBhdCIpPyBkb2N1
+bWVudC5kb2N1bWVudEVsZW1lbnQgOiBkb2N1bWVudC5ib2R5PyBkb2N1bWVudC5i
+b2R5IDogbnVsbCwKdHRfbiA9IG5hdmlnYXRvci51c2VyQWdlbnQudG9Mb3dlckNh
+c2UoKSwKdHRfbnYgPSBuYXZpZ2F0b3IuYXBwVmVyc2lvbjsKLy8gQnJvd3NlciBm
+bGFncwp2YXIgdHRfb3AgPSAhISh3aW5kb3cub3BlcmEgJiYgZG9jdW1lbnQuZ2V0
+RWxlbWVudEJ5SWQpLAp0dF9vcDYgPSB0dF9vcCAmJiAhZG9jdW1lbnQuZGVmYXVs
+dFZpZXcsCnR0X29wNyA9IHR0X29wICYmICF0dF9vcDYsCnR0X2llID0gdHRfbi5p
+bmRleE9mKCJtc2llIikgIT0gLTEgJiYgZG9jdW1lbnQuYWxsICYmIHR0X2RiICYm
+ICF0dF9vcCwKdHRfaWU3ID0gdHRfaWUgJiYgdHlwZW9mIGRvY3VtZW50LmJvZHku
+c3R5bGUubWF4SGVpZ2h0ICE9IHR0X3UsCnR0X2llNiA9IHR0X2llICYmICF0dF9p
+ZTcgJiYgcGFyc2VGbG9hdCh0dF9udi5zdWJzdHJpbmcodHRfbnYuaW5kZXhPZigi
+TVNJRSIpKzUpKSA+PSA1LjUsCnR0X240ID0gKGRvY3VtZW50LmxheWVycyAmJiB0
+eXBlb2YgZG9jdW1lbnQuY2xhc3NlcyAhPSB0dF91KSwKdHRfbjYgPSAoIXR0X29w
+ICYmIGRvY3VtZW50LmRlZmF1bHRWaWV3ICYmIHR5cGVvZiBkb2N1bWVudC5kZWZh
+dWx0Vmlldy5nZXRDb21wdXRlZFN0eWxlICE9IHR0X3UpLAp0dF93M2MgPSAhdHRf
+aWUgJiYgIXR0X242ICYmICF0dF9vcCAmJiBkb2N1bWVudC5nZXRFbGVtZW50QnlJ
+ZCwKdHRfY2UgPSBkb2N1bWVudC5jYXB0dXJlRXZlbnRzICYmICF0dF9uNjsKCmZ1
+bmN0aW9uIHR0X0ludCh0X3gpCnsKCXZhciB0X3k7CglyZXR1cm4gaXNOYU4odF95
+ID0gcGFyc2VJbnQodF94KSk/IDAgOiB0X3k7Cn0KZnVuY3Rpb24gd3pSZXBsYWNl
+KHRfeCwgdF95KQp7Cgl2YXIgdF9yZXQgPSAiIiwKCXRfc3RyID0gdGhpcywKCXRf
+eEk7Cgl3aGlsZSgodF94SSA9IHRfc3RyLmluZGV4T2YodF94KSkgIT0gLTEpCgl7
+CgkJdF9yZXQgKz0gdF9zdHIuc3Vic3RyaW5nKDAsIHRfeEkpICsgdF95OwoJCXRf
+c3RyID0gdF9zdHIuc3Vic3RyaW5nKHRfeEkgKyB0X3gubGVuZ3RoKTsKCX0KCXJl
+dHVybiB0X3JldCt0X3N0cjsKfQpTdHJpbmcucHJvdG90eXBlLnd6UmVwbGFjZSA9
+IHd6UmVwbGFjZTsKZnVuY3Rpb24gdHRfTjRUYWdzKHRhZ3R5cCwgdF9kLCB0X3kp
+CnsKCXRfZCA9IHRfZCB8fCBkb2N1bWVudDsKCXRfeSA9IHRfeSB8fCBuZXcgQXJy
+YXkoKTsKCXZhciB0X3ggPSAodGFndHlwPT0iYSIpPyB0X2QubGlua3MgOiB0X2Qu
+bGF5ZXJzOwoJZm9yKHZhciB6ID0gdF94Lmxlbmd0aDsgei0tOykgdF95W3RfeS5s
+ZW5ndGhdID0gdF94W3pdOwoJZm9yKHogPSB0X2QubGF5ZXJzLmxlbmd0aDsgei0t
+OykgdF95ID0gdHRfTjRUYWdzKHRhZ3R5cCwgdF9kLmxheWVyc1t6XS5kb2N1bWVu
+dCwgdF95KTsKCXJldHVybiB0X3k7Cn0KZnVuY3Rpb24gdHRfSHRtKHR0LCB0X2lk
+LCB0eHQpCnsKCXZhciB0X2JnYyA9ICh0eXBlb2YgdHQuVF9CR0NPTE9SICE9IHR0
+X3UpPyB0dC5UX0JHQ09MT1IgOiB0dEJnQ29sb3IsCgl0X2JnaW1nICAgPSAodHlw
+ZW9mIHR0LlRfQkdJTUcgIT0gdHRfdSk/IHR0LlRfQkdJTUcgOiB0dEJnSW1nLAoJ
+dF9iYyAgICAgID0gKHR5cGVvZiB0dC5UX0JPUkRFUkNPTE9SICE9IHR0X3UpPyB0
+dC5UX0JPUkRFUkNPTE9SIDogdHRCb3JkZXJDb2xvciwKCXRfYncgICAgICA9ICh0
+eXBlb2YgdHQuVF9CT1JERVJXSURUSCAhPSB0dF91KT8gdHQuVF9CT1JERVJXSURU
+SCA6IHR0Qm9yZGVyV2lkdGgsCgl0X2ZmICAgICAgPSAodHlwZW9mIHR0LlRfRk9O
+VEZBQ0UgIT0gdHRfdSk/IHR0LlRfRk9OVEZBQ0UgOiB0dEZvbnRGYWNlLAoJdF9m
+YyAgICAgID0gKHR5cGVvZiB0dC5UX0ZPTlRDT0xPUiAhPSB0dF91KT8gdHQuVF9G
+T05UQ09MT1IgOiB0dEZvbnRDb2xvciwKCXRfZnN6ICAgICA9ICh0eXBlb2YgdHQu
+VF9GT05UU0laRSAhPSB0dF91KT8gdHQuVF9GT05UU0laRSA6IHR0Rm9udFNpemUs
+Cgl0X2Z3Z2h0ICAgPSAodHlwZW9mIHR0LlRfRk9OVFdFSUdIVCAhPSB0dF91KT8g
+dHQuVF9GT05UV0VJR0hUIDogdHRGb250V2VpZ2h0LAoJdF9vcGEgICAgID0gKHR5
+cGVvZiB0dC5UX09QQUNJVFkgIT0gdHRfdSk/IHR0LlRfT1BBQ0lUWSA6IHR0T3Bh
+Y2l0eSwKCXRfcGFkZCAgICA9ICh0eXBlb2YgdHQuVF9QQURESU5HICE9IHR0X3Up
+PyB0dC5UX1BBRERJTkcgOiB0dFBhZGRpbmcsCgl0X3NoYyAgICAgPSAodHlwZW9m
+IHR0LlRfU0hBRE9XQ09MT1IgIT0gdHRfdSk/IHR0LlRfU0hBRE9XQ09MT1IgOiAo
+dHRTaGFkb3dDb2xvciB8fCAwKSwKCXRfc2h3ICAgICA9ICh0eXBlb2YgdHQuVF9T
+SEFET1dXSURUSCAhPSB0dF91KT8gdHQuVF9TSEFET1dXSURUSCA6ICh0dFNoYWRv
+d1dpZHRoIHx8IDApLAoJdF9hbGduICAgID0gKHR5cGVvZiB0dC5UX1RFWFRBTElH
+TiAhPSB0dF91KT8gdHQuVF9URVhUQUxJR04gOiB0dFRleHRBbGlnbiwKCXRfdGl0
+ICAgICA9ICh0eXBlb2YgdHQuVF9USVRMRSAhPSB0dF91KT8gdHQuVF9USVRMRSA6
+ICIiLAoJdF90aXRjICAgID0gKHR5cGVvZiB0dC5UX1RJVExFQ09MT1IgIT0gdHRf
+dSk/IHR0LlRfVElUTEVDT0xPUiA6IHR0VGl0bGVDb2xvciwKCXRfdyAgICAgICA9
+ICh0eXBlb2YgdHQuVF9XSURUSCAhPSB0dF91KT8gdHQuVF9XSURUSCAgOiB0dFdp
+ZHRoOwoJaWYodF9zaGMgfHwgdF9zaHcpCgl7CgkJdF9zaGMgPSB0X3NoYyB8fCAi
+I2MwYzBjMCI7CgkJdF9zaHcgPSB0X3NodyB8fCA1OwoJfQoJaWYodHRfbjQgJiYg
+KHRfZnN6ID09ICIxMHB4IiB8fCB0X2ZzeiA9PSAiMTFweCIpKSB0X2ZzeiA9ICIx
+MnB4IjsKCgl2YXIgdF9vcHR4ID0gKHR0X240PyAnJyA6IHR0X242PyAoJy1tb3ot
+b3BhY2l0eTonKyh0X29wYS8xMDAuMCkpIDogdHRfaWU/ICgnZmlsdGVyOkFscGhh
+KG9wYWNpdHk9Jyt0X29wYSsnKScpIDogKCdvcGFjaXR5OicrKHRfb3BhLzEwMC4w
+KSkpICsgJzsnOwoJdmFyIHRfeSA9ICc8ZGl2IGlkPSInK3RfaWQrJyIgc3R5bGU9
+InBvc2l0aW9uOmFic29sdXRlO3otaW5kZXg6MTAxMDsnOwoJdF95ICs9ICdsZWZ0
+OjBweDt0b3A6MHB4O3dpZHRoOicrKHRfdyt0X3NodykrJ3B4O3Zpc2liaWxpdHk6
+JysodHRfbjQ/ICdoaWRlJyA6ICdoaWRkZW4nKSsnOycrdF9vcHR4KyciPicgKwoJ
+CSc8dGFibGUgYm9yZGVyPSIwIiBjZWxscGFkZGluZz0iMCIgY2VsbHNwYWNpbmc9
+IjAiJysodF9iYz8gKCcgYmdjb2xvcj0iJyt0X2JjKyciIHN0eWxlPSJiYWNrZ3Jv
+dW5kOicrdF9iYysnOyInKSA6ICcnKSsnIHdpZHRoPSInK3RfdysnIj4nOwoJaWYo
+dF90aXQpCgl7CgkJdF95ICs9ICc8dHI+PHRkIHN0eWxlPSJwYWRkaW5nLWxlZnQ6
+M3B4O3BhZGRpbmctcmlnaHQ6M3B4OyIgYWxpZ249IicrdF9hbGduKyciPjxmb250
+IGNvbG9yPSInK3RfdGl0YysnIiBmYWNlPSInK3RfZmYrJyIgJyArCgkJCSdzdHls
+ZT0iY29sb3I6Jyt0X3RpdGMrJztmb250LWZhbWlseTonK3RfZmYrJztmb250LXNp
+emU6Jyt0X2ZzeisnOyI+PGI+JyArCgkJCSh0dF9uND8gJyZuYnNwOycgOiAnJykr
+dF90aXQrJzwvYj48L2ZvbnQ+PC90ZD48L3RyPic7Cgl9Cgl0X3kgKz0gJzx0cj48
+dGQ+PHRhYmxlIGJvcmRlcj0iMCIgY2VsbHBhZGRpbmc9IicrdF9wYWRkKyciIGNl
+bGxzcGFjaW5nPSInK3RfYncrJyIgd2lkdGg9IjEwMCUiPicgKwoJCSc8dHI+PHRk
+JysodF9iZ2M/ICgnIGJnY29sb3I9IicrdF9iZ2MrJyInKSA6ICcnKSsodF9iZ2lt
+Zz8gJyBiYWNrZ3JvdW5kPSInK3RfYmdpbWcrJyInIDogJycpKycgc3R5bGU9InRl
+eHQtYWxpZ246Jyt0X2FsZ24rJzsnOwoJaWYodHRfbjYpIHRfeSArPSAncGFkZGlu
+ZzonK3RfcGFkZCsncHg7JzsKCXRfeSArPSAnIiBhbGlnbj0iJyt0X2FsZ24rJyI+
+PGZvbnQgY29sb3I9IicrdF9mYysnIiBmYWNlPSInK3RfZmYrJyInICsKCQknIHN0
+eWxlPSJjb2xvcjonK3RfZmMrJztmb250LWZhbWlseTonK3RfZmYrJztmb250LXNp
+emU6Jyt0X2ZzeisnO2ZvbnQtd2VpZ2h0OicrdF9md2dodCsnOyI+JzsKCWlmKHRf
+ZndnaHQgPT0gJ2JvbGQnKSB0X3kgKz0gJzxiPic7Cgl0X3kgKz0gdHh0OwoJaWYo
+dF9md2dodCA9PSAnYm9sZCcpIHRfeSArPSAnPC9iPic7Cgl0X3kgKz0gJzwvZm9u
+dD48L3RkPjwvdHI+PC90YWJsZT48L3RkPjwvdHI+PC90YWJsZT4nOwoJaWYodF9z
+aHcpCgl7CgkJdmFyIHRfc3BjdCA9IE1hdGgucm91bmQodF9zaHcqMS4zKTsKCQlp
+Zih0dF9uNCkKCQl7CgkJCXRfeSArPSAnPGxheWVyIGJnY29sb3I9IicrdF9zaGMr
+JyIgbGVmdD0iJyt0X3crJyIgdG9wPSInK3Rfc3BjdCsnIiB3aWR0aD0iJyt0X3No
+dysnIiBoZWlnaHQ9IjAiPjwvbGF5ZXI+JyArCgkJCQknPGxheWVyIGJnY29sb3I9
+IicrdF9zaGMrJyIgbGVmdD0iJyt0X3NwY3QrJyIgYWxpZ249ImJvdHRvbSIgd2lk
+dGg9IicrKHRfdy10X3NwY3QpKyciIGhlaWdodD0iJyt0X3NodysnIj48L2xheWVy
+Pic7CgkJfQoJCWVsc2UKCQl7CgkJCXRfb3B0eCA9IHR0X242PyAnLW1vei1vcGFj
+aXR5OjAuODU7JyA6IHR0X2llPyAnZmlsdGVyOkFscGhhKG9wYWNpdHk9ODUpOycg
+OiAnb3BhY2l0eTowLjg1Oyc7CgkJCXRfeSArPSAnPGRpdiBpZD0iJyt0X2lkKydS
+IiBzdHlsZT0icG9zaXRpb246YWJzb2x1dGU7YmFja2dyb3VuZDonK3Rfc2hjKyc7
+bGVmdDonK3RfdysncHg7dG9wOicrdF9zcGN0KydweDt3aWR0aDonK3Rfc2h3Kydw
+eDtoZWlnaHQ6MXB4O292ZXJmbG93OmhpZGRlbjsnK3Rfb3B0eCsnIj48L2Rpdj4n
+ICsKCQkJCSc8ZGl2IHN0eWxlPSJwb3NpdGlvbjpyZWxhdGl2ZTtiYWNrZ3JvdW5k
+OicrdF9zaGMrJztsZWZ0OicrdF9zcGN0KydweDt0b3A6MHB4O3dpZHRoOicrKHRf
+dy10X3NwY3QpKydweDtoZWlnaHQ6Jyt0X3NodysncHg7b3ZlcmZsb3c6aGlkZGVu
+OycrdF9vcHR4KyciPjwvZGl2Pic7CgkJfQoJfQoJcmV0dXJuKHRfeSsnPC9kaXY+
+Jyk7Cn0KZnVuY3Rpb24gdHRfRXZYKHRfZSkKewoJdmFyIHRfeSA9IHR0X0ludCh0
+X2UucGFnZVggfHwgdF9lLmNsaWVudFggfHwgMCkgKwoJCXR0X0ludCh0dF9pZT8g
+dHRfZGIuc2Nyb2xsTGVmdCA6IDApICsKCQl0dF9vZmZYOwoJaWYodF95ID4geGxp
+bSkgdF95ID0geGxpbTsKCXZhciB0X3NjciA9IHR0X0ludCh3aW5kb3cucGFnZVhP
+ZmZzZXQgfHwgKHR0X2RiPyB0dF9kYi5zY3JvbGxMZWZ0IDogMCkgfHwgMCk7Cglp
+Zih0X3kgPCB0X3NjcikgdF95ID0gdF9zY3I7CglyZXR1cm4gdF95Owp9CmZ1bmN0
+aW9uIHR0X0V2WSh0X2UpCnsKCXZhciB0X3kyOwoKCXZhciB0X3kgPSB0dF9JbnQo
+dF9lLnBhZ2VZIHx8IHRfZS5jbGllbnRZIHx8IDApICsKCQl0dF9JbnQodHRfaWU/
+IHR0X2RiLnNjcm9sbFRvcCA6IDApOwoJaWYodHRfc3VwICYmICh0X3kyID0gdF95
+IC0gKHR0X29iakggKyB0dF9vZmZZIC0gMTUpKSA+PSB0dF9JbnQod2luZG93LnBh
+Z2VZT2Zmc2V0IHx8ICh0dF9kYj8gdHRfZGIuc2Nyb2xsVG9wIDogMCkgfHwgMCkp
+CgkJdF95IC09ICh0dF9vYmpIICsgdHRfb2ZmWSAtIDE1KTsKCWVsc2UgaWYodF95
+ID4geWxpbSB8fCAhdHRfc3ViICYmIHRfeSA+IHlsaW0tMjQpCgl7CgkJdF95IC09
+ICh0dF9vYmpIICsgNSk7CgkJdHRfc3ViID0gZmFsc2U7Cgl9CgllbHNlCgl7CgkJ
+dF95ICs9IHR0X29mZlk7CgkJdHRfc3ViID0gdHJ1ZTsKCX0KCXJldHVybiB0X3k7
+Cn0KZnVuY3Rpb24gdHRfUmVsZWFzTW92KCkKewoJaWYoZG9jdW1lbnQub25tb3Vz
+ZW1vdmUgPT0gdHRfTW92ZSkKCXsKCQlpZighdHRfbWYgJiYgdHRfY2UpIGRvY3Vt
+ZW50LnJlbGVhc2VFdmVudHMoRXZlbnQuTU9VU0VNT1ZFKTsKCQlkb2N1bWVudC5v
+bm1vdXNlbW92ZSA9IHR0X21mOwoJfQp9CmZ1bmN0aW9uIHR0X1Nob3dJZnJtKHRf
+eCkKewoJaWYoIXR0X29iaiB8fCAhdHRfaWZybSkgcmV0dXJuOwoJaWYodF94KQoJ
+ewoJCXR0X2lmcm0uc3R5bGUud2lkdGggPSB0dF9vYmpXKydweCc7CgkJdHRfaWZy
+bS5zdHlsZS5oZWlnaHQgPSB0dF9vYmpIKydweCc7CgkJdHRfaWZybS5zdHlsZS5k
+aXNwbGF5ID0gImJsb2NrIjsKCX0KCWVsc2UgdHRfaWZybS5zdHlsZS5kaXNwbGF5
+ID0gIm5vbmUiOwp9CmZ1bmN0aW9uIHR0X0dldERpdih0X2lkKQp7CglyZXR1cm4o
+CgkJdHRfbjQ/IChkb2N1bWVudC5sYXllcnNbdF9pZF0gfHwgbnVsbCkKCQk6IHR0
+X2llPyAoZG9jdW1lbnQuYWxsW3RfaWRdIHx8IG51bGwpCgkJOiAoZG9jdW1lbnQu
+Z2V0RWxlbWVudEJ5SWQodF9pZCkgfHwgbnVsbCkKCSk7Cn0KZnVuY3Rpb24gdHRf
+R2V0RGl2VygpCnsKCXJldHVybiB0dF9JbnQoCgkJdHRfbjQ/IHR0X29iai5jbGlw
+LndpZHRoCgkJOiAodHRfb2JqLnN0eWxlLnBpeGVsV2lkdGggfHwgdHRfb2JqLm9m
+ZnNldFdpZHRoKQoJKTsKfQpmdW5jdGlvbiB0dF9HZXREaXZIKCkKewoJcmV0dXJu
+IHR0X0ludCgKCQl0dF9uND8gdHRfb2JqLmNsaXAuaGVpZ2h0CgkJOiAodHRfb2Jq
+LnN0eWxlLnBpeGVsSGVpZ2h0IHx8IHR0X29iai5vZmZzZXRIZWlnaHQpCgkpOwp9
+CgovLyBDb21wYXQgd2l0aCBEcmFnRHJvcCBMaWI6IEVuc3VyZSB0aGF0IHotaW5k
+ZXggb2YgdG9vbHRpcCBpcyBsaWZ0ZWQgYmV5b25kIHRvcGxldmVsIGRyYWdkcm9w
+IGVsZW1lbnQKZnVuY3Rpb24gdHRfU2V0RGl2WigpCnsKCXZhciB0X2kgPSB0dF9v
+Ymouc3R5bGUgfHwgdHRfb2JqOwoJaWYodF9pKQoJewoJCWlmKHdpbmRvdy5kZCAm
+JiBkZC56KQoJCQl0X2kuekluZGV4ID0gTWF0aC5tYXgoZGQueisxLCB0X2kueklu
+ZGV4KTsKCQlpZih0dF9pZnJtKSB0dF9pZnJtLnN0eWxlLnpJbmRleCA9IHRfaS56
+SW5kZXgtMTsKCX0KfQpmdW5jdGlvbiB0dF9TZXREaXZQb3ModF94LCB0X3kpCnsK
+CXZhciB0X2kgPSB0dF9vYmouc3R5bGUgfHwgdHRfb2JqOwoJdmFyIHRfcHggPSAo
+dHRfb3A2IHx8IHR0X240KT8gJycgOiAncHgnOwoJdF9pLmxlZnQgPSAodHRfb2Jq
+WCA9IHRfeCkgKyB0X3B4OwoJdF9pLnRvcCA9ICh0dF9vYmpZID0gdF95KSArIHRf
+cHg7CgkvLyAgd2luZG93Li4uIHRvIGNpcmN1bXZlbnQgdGhlIEZpcmVGb3ggQWx6
+aGVpbWVyIEJ1ZwoJaWYod2luZG93LnR0X2lmcm0pCgl7CgkJdHRfaWZybS5zdHls
+ZS5sZWZ0ID0gdF9pLmxlZnQ7CgkJdHRfaWZybS5zdHlsZS50b3AgPSB0X2kudG9w
+OwoJfQp9CmZ1bmN0aW9uIHR0X1Nob3dEaXYodF94KQp7Cgl0dF9TaG93SWZybSh0
+X3gpOwoJaWYodHRfbjQpIHR0X29iai52aXNpYmlsaXR5ID0gdF94PyAnc2hvdycg
+OiAnaGlkZSc7CgllbHNlIHR0X29iai5zdHlsZS52aXNpYmlsaXR5ID0gdF94PyAn
+dmlzaWJsZScgOiAnaGlkZGVuJzsKCXR0X2FjdCA9IHRfeDsKfQpmdW5jdGlvbiB0
+dF9EZUFsdCh0X3RhZykKewoJaWYodF90YWcpCgl7CgkJaWYodF90YWcuYWx0KSB0
+X3RhZy5hbHQgPSAiIjsKCQlpZih0X3RhZy50aXRsZSkgdF90YWcudGl0bGUgPSAi
+IjsKCQl2YXIgdF9jID0gdF90YWcuY2hpbGRyZW4gfHwgdF90YWcuY2hpbGROb2Rl
+cyB8fCBudWxsOwoJCWlmKHRfYykKCQl7CgkJCWZvcih2YXIgdF9pID0gdF9jLmxl
+bmd0aDsgdF9pOyApCgkJCQl0dF9EZUFsdCh0X2NbLS10X2ldKTsKCQl9Cgl9Cn0K
+ZnVuY3Rpb24gdHRfT3BEZUhyZWYodF9lKQp7Cgl2YXIgdF90YWc7CglpZih0X2Up
+Cgl7CgkJdF90YWcgPSB0X2UudGFyZ2V0OwoJCXdoaWxlKHRfdGFnKQoJCXsKCQkJ
+aWYodF90YWcuaGFzQXR0cmlidXRlKCJocmVmIikpCgkJCXsKCQkJCXR0X3RhZyA9
+IHRfdGFnCgkJCQl0dF90YWcudF9ocmVmID0gdHRfdGFnLmdldEF0dHJpYnV0ZSgi
+aHJlZiIpOwoJCQkJdHRfdGFnLnJlbW92ZUF0dHJpYnV0ZSgiaHJlZiIpOwoJCQkJ
+dHRfdGFnLnN0eWxlLmN1cnNvciA9ICJoYW5kIjsKCQkJCXR0X3RhZy5vbm1vdXNl
+ZG93biA9IHR0X09wUmVIcmVmOwoJCQkJdHRfdGFnLnN0YXRzID0gd2luZG93LnN0
+YXR1czsKCQkJCXdpbmRvdy5zdGF0dXMgPSB0dF90YWcudF9ocmVmOwoJCQkJYnJl
+YWs7CgkJCX0KCQkJdF90YWcgPSB0X3RhZy5wYXJlbnRFbGVtZW50OwoJCX0KCX0K
+fQpmdW5jdGlvbiB0dF9PcFJlSHJlZigpCnsKCWlmKHR0X3RhZykKCXsKCQl0dF90
+YWcuc2V0QXR0cmlidXRlKCJocmVmIiwgdHRfdGFnLnRfaHJlZik7CgkJd2luZG93
+LnN0YXR1cyA9IHR0X3RhZy5zdGF0czsKCQl0dF90YWcgPSBudWxsOwoJfQp9CmZ1
+bmN0aW9uIHR0X1Nob3codF9lLCB0X2lkLCB0X3N1cCwgdF9jbGssIHRfZGVsYXks
+IHRfZml4LCB0X2xlZnQsIHRfb2ZmeCwgdF9vZmZ5LCB0X3N0YXRpYywgdF9zdGlj
+a3ksIHRfdGVtcCkKewoJaWYodHRfb2JqKSB0dF9IaWRlKCk7Cgl0dF9tZiA9IGRv
+Y3VtZW50Lm9ubW91c2Vtb3ZlIHx8IG51bGw7CglpZih3aW5kb3cuZGQgJiYgKHdp
+bmRvdy5EUkFHICYmIHR0X21mID09IERSQUcgfHwgd2luZG93LlJFU0laRSAmJiB0
+dF9tZiA9PSBSRVNJWkUpKSByZXR1cm47Cgl2YXIgdF9zaCwgdF9oOwoKCXR0X29i
+aiA9IHR0X0dldERpdih0X2lkKTsKCWlmKHR0X29iaikKCXsKCQl0X2UgPSB0X2Ug
+fHwgd2luZG93LmV2ZW50OwoJCXR0X3N1YiA9ICEodHRfc3VwID0gdF9zdXApOwoJ
+CXR0X3N0aWNreSA9IHRfc3RpY2t5OwoJCXR0X29ialcgPSB0dF9HZXREaXZXKCk7
+CgkJdHRfb2JqSCA9IHR0X0dldERpdkgoKTsKCQl0dF9vZmZYID0gdF9sZWZ0PyAt
+KHR0X29ialcrdF9vZmZ4KSA6IHRfb2ZmeDsKCQl0dF9vZmZZID0gdF9vZmZ5OwoJ
+CWlmKHR0X29wNykgdHRfT3BEZUhyZWYodF9lKTsKCQlpZih0dF9uNCkKCQl7CgkJ
+CWlmKHR0X29iai5kb2N1bWVudC5sYXllcnMubGVuZ3RoKQoJCQl7CgkJCQl0X3No
+ID0gdHRfb2JqLmRvY3VtZW50LmxheWVyc1swXTsKCQkJCXRfc2guY2xpcC5oZWln
+aHQgPSB0dF9vYmpIIC0gTWF0aC5yb3VuZCh0X3NoLmNsaXAud2lkdGgqMS4zKTsK
+CQkJfQoJCX0KCQllbHNlCgkJewoJCQl0X3NoID0gdHRfR2V0RGl2KHRfaWQrJ1In
+KTsKCQkJaWYodF9zaCkKCQkJewoJCQkJdF9oID0gdHRfb2JqSCAtIHR0X0ludCh0
+X3NoLnN0eWxlLnBpeGVsVG9wIHx8IHRfc2guc3R5bGUudG9wIHx8IDApOwoJCQkJ
+aWYodHlwZW9mIHRfc2guc3R5bGUucGl4ZWxIZWlnaHQgIT0gdHRfdSkgdF9zaC5z
+dHlsZS5waXhlbEhlaWdodCA9IHRfaDsKCQkJCWVsc2UgdF9zaC5zdHlsZS5oZWln
+aHQgPSB0X2grJ3B4JzsKCQkJfQoJCX0KCgkJeGxpbSA9IHR0X0ludCgodHRfZGIg
+JiYgdHRfZGIuY2xpZW50V2lkdGgpPyB0dF9kYi5jbGllbnRXaWR0aCA6IHdpbmRv
+dy5pbm5lcldpZHRoKSArCgkJCXR0X0ludCh3aW5kb3cucGFnZVhPZmZzZXQgfHwg
+KHR0X2RiPyB0dF9kYi5zY3JvbGxMZWZ0IDogMCkgfHwgMCkgLQoJCQl0dF9vYmpX
+IC0KCQkJKHR0X240PyAyMSA6IDApOwoJCXlsaW0gPSB0dF9JbnQod2luZG93Lmlu
+bmVySGVpZ2h0IHx8IHR0X2RiLmNsaWVudEhlaWdodCkgKwoJCQl0dF9JbnQod2lu
+ZG93LnBhZ2VZT2Zmc2V0IHx8ICh0dF9kYj8gdHRfZGIuc2Nyb2xsVG9wIDogMCkg
+fHwgMCkgLQoJCQl0dF9vYmpIIC0gdHRfb2ZmWTsKCgkJdHRfU2V0RGl2WigpOwoJ
+CWlmKHRfZml4KSB0dF9TZXREaXZQb3ModHRfSW50KCh0X2ZpeCA9IHRfZml4LnNw
+bGl0KCcsJykpWzBdKSwgdHRfSW50KHRfZml4WzFdKSk7CgkJZWxzZSB0dF9TZXRE
+aXZQb3ModHRfRXZYKHRfZSksIHR0X0V2WSh0X2UpKTsKCgkJdmFyIHRfdHh0ID0g
+J3R0X1Nob3dEaXYoXCd0cnVlXCcpOyc7CgkJaWYodF9zdGlja3kpIHRfdHh0ICs9
+ICd7JysKCQkJCSd0dF9SZWxlYXNNb3YoKTsnKwoJCQkJKHRfY2xrPyAoJ3dpbmRv
+dy50dF91cEZ1bmMgPSBkb2N1bWVudC5vbm1vdXNldXAgfHwgbnVsbDsnKwoJCQkJ
+J2lmKHR0X2NlKSBkb2N1bWVudC5jYXB0dXJlRXZlbnRzKEV2ZW50Lk1PVVNFVVAp
+OycrCgkJCQknZG9jdW1lbnQub25tb3VzZXVwID0gbmV3IEZ1bmN0aW9uKCJ3aW5k
+b3cuc2V0VGltZW91dChcJ3R0X0hpZGUoKTtcJywgMTApOyIpOycpIDogJycpKwoJ
+CQknfSc7CgkJZWxzZSBpZih0X3N0YXRpYykgdF90eHQgKz0gJ3R0X1JlbGVhc01v
+digpOyc7CgkJaWYodF90ZW1wID4gMCkgdF90eHQgKz0gJ3dpbmRvdy50dF9ydG0g
+PSB3aW5kb3cuc2V0VGltZW91dChcJ3R0X3N0aWNreSA9IGZhbHNlOyB0dF9IaWRl
+KCk7XCcsJyt0X3RlbXArJyk7JzsKCQl3aW5kb3cudHRfcmRsID0gd2luZG93LnNl
+dFRpbWVvdXQodF90eHQsIHRfZGVsYXkpOwoKCQlpZighdF9maXgpCgkJewoJCQlp
+Zih0dF9jZSkgZG9jdW1lbnQuY2FwdHVyZUV2ZW50cyhFdmVudC5NT1VTRU1PVkUp
+OwoJCQlkb2N1bWVudC5vbm1vdXNlbW92ZSA9IHR0X01vdmU7CgkJfQoJfQp9CnZh
+ciB0dF9hcmVhID0gZmFsc2U7CmZ1bmN0aW9uIHR0X01vdmUodF9ldikKewoJaWYo
+IXR0X29iaikgcmV0dXJuOwoJaWYodHRfbjYgfHwgdHRfdzNjKQoJewoJCWlmKHR0
+X3dhaXQpIHJldHVybjsKCQl0dF93YWl0ID0gdHJ1ZTsKCQlzZXRUaW1lb3V0KCd0
+dF93YWl0ID0gZmFsc2U7JywgNSk7Cgl9Cgl2YXIgdF9lID0gdF9ldiB8fCB3aW5k
+b3cuZXZlbnQ7Cgl0dF9TZXREaXZQb3ModHRfRXZYKHRfZSksIHR0X0V2WSh0X2Up
+KTsKCWlmKHdpbmRvdy50dF9vcDYpCgl7CgkJaWYodHRfYXJlYSAmJiB0X2UudGFy
+Z2V0LnRhZ05hbWUgIT0gJ0FSRUEnKSB0dF9IaWRlKCk7CgkJZWxzZSBpZih0X2Uu
+dGFyZ2V0LnRhZ05hbWUgPT0gJ0FSRUEnKSB0dF9hcmVhID0gdHJ1ZTsKCX0KfQpm
+dW5jdGlvbiB0dF9IaWRlKCkKewoJaWYod2luZG93LnR0X29iaikKCXsKCQlpZih3
+aW5kb3cudHRfcmRsKSB3aW5kb3cuY2xlYXJUaW1lb3V0KHR0X3JkbCk7CgkJaWYo
+IXR0X3N0aWNreSB8fCAhdHRfYWN0KQoJCXsKCQkJaWYod2luZG93LnR0X3J0bSkg
+d2luZG93LmNsZWFyVGltZW91dCh0dF9ydG0pOwoJCQl0dF9TaG93RGl2KGZhbHNl
+KTsKCQkJdHRfU2V0RGl2UG9zKC10dF9vYmpXLCAtdHRfb2JqSCk7CgkJCXR0X29i
+aiA9IG51bGw7CgkJCWlmKHR5cGVvZiB3aW5kb3cudHRfdXBGdW5jICE9IHR0X3Up
+IGRvY3VtZW50Lm9ubW91c2V1cCA9IHdpbmRvdy50dF91cEZ1bmM7CgkJfQoJCXR0
+X3N0aWNreSA9IGZhbHNlOwoJCWlmKHR0X29wNiAmJiB0dF9hcmVhKSB0dF9hcmVh
+ID0gZmFsc2U7CgkJdHRfUmVsZWFzTW92KCk7CgkJaWYodHRfb3A3KSB0dF9PcFJl
+SHJlZigpOwoJfQp9CmZ1bmN0aW9uIHR0X0luaXQoKQp7CglpZighKHR0X29wIHx8
+IHR0X240IHx8IHR0X242IHx8IHR0X2llIHx8IHR0X3czYykpIHJldHVybjsKCgl2
+YXIgaHRtID0gdHRfbjQ/ICc8ZGl2IHN0eWxlPSJwb3NpdGlvbjphYnNvbHV0ZTsi
+PjwvZGl2PicgOiAnJywKCXRhZ3MsCgl0X3RqLAoJb3ZlciwKCXRfYiwKCWVzYyA9
+ICdyZXR1cm4gZXNjYXBlKCc7Cglmb3IodmFyIGkgPSB0dF90YWdzLmxlbmd0aDsg
+aTspCgl7LS1pOwoJCXRhZ3MgPSB0dF9pZT8gKGRvY3VtZW50LmFsbC50YWdzKHR0
+X3RhZ3NbaV0pIHx8IDEpCgkJCTogZG9jdW1lbnQuZ2V0RWxlbWVudHNCeVRhZ05h
+bWU/IChkb2N1bWVudC5nZXRFbGVtZW50c0J5VGFnTmFtZSh0dF90YWdzW2ldKSB8
+fCAxKQoJCQk6ICghdHRfbjQgJiYgdHRfdGFnc1tpXT09ImEiKT8gZG9jdW1lbnQu
+bGlua3MKCQkJOiAxOwoJCWlmKHR0X240ICYmICh0dF90YWdzW2ldID09ICJhIiB8
+fCB0dF90YWdzW2ldID09ICJsYXllciIpKSB0YWdzID0gdHRfTjRUYWdzKHR0X3Rh
+Z3NbaV0pOwoJCWZvcih2YXIgaiA9IHRhZ3MubGVuZ3RoOyBqOykKCQl7LS1qOwoJ
+CQlpZih0eXBlb2YgKHRfdGogPSB0YWdzW2pdKS5vbm1vdXNlb3ZlciA9PSAiZnVu
+Y3Rpb24iICYmIHRfdGoub25tb3VzZW92ZXIudG9TdHJpbmcoKS5pbmRleE9mKGVz
+YykgIT0gLTEgJiYgIXR0X242IHx8IHR0X242ICYmIChvdmVyID0gdF90ai5nZXRB
+dHRyaWJ1dGUoIm9ubW91c2VvdmVyIikpICYmIG92ZXIuaW5kZXhPZihlc2MpICE9
+IC0xKQoJCQl7CgkJCQlpZihvdmVyKSB0X3RqLm9ubW91c2VvdmVyID0gbmV3IEZ1
+bmN0aW9uKG92ZXIpOwoJCQkJdmFyIHR4dCA9IHVuZXNjYXBlKHRfdGoub25tb3Vz
+ZW92ZXIoKSk7CgkJCQlodG0gKz0gdHRfSHRtKAoJCQkJCXRfdGosCgkJCQkJInRP
+b0x0SXAiK2krIiIraiwKCQkJCQl0eHQud3pSZXBsYWNlKCImICIsIiYiKQoJCQkJ
+KTsKCQkJCS8vIHdpbmRvdy4gdG8gY2lyY3VtdmVudCB0aGUgRkYgQWx6aGVpbWVy
+IEJ1ZwoJCQkJdF90ai5vbm1vdXNlb3ZlciA9IG5ldyBGdW5jdGlvbignZScsCgkJ
+CQkJJ2lmKHdpbmRvdy50dF9TaG93ICYmIHR0X1Nob3cpIHR0X1Nob3coZSwnKwoJ
+CQkJCScidE9vTHRJcCcgK2krJycraisgJyIsJysKCQkJCQkoKHR5cGVvZiB0X3Rq
+LlRfQUJPVkUgIT0gdHRfdSk/IHRfdGouVF9BQk9WRSA6IHR0QWJvdmUpKycsJysK
+CQkJCQkoKHR5cGVvZiB0X3RqLlRfQ0xJQ0tDTE9TRSAhPSB0dF91KT8gdF90ai5U
+X0NMSUNLQ0xPU0UgOiB0dENsaWNrQ2xvc2UpKycsJysKCQkJCQkoKHR5cGVvZiB0
+X3RqLlRfREVMQVkgIT0gdHRfdSk/IHRfdGouVF9ERUxBWSA6IHR0RGVsYXkpKycs
+JysKCQkJCQkoKHR5cGVvZiB0X3RqLlRfRklYICE9IHR0X3UpPyAnIicrdF90ai5U
+X0ZJWCsnIicgOiAnIiInKSsnLCcrCgkJCQkJKCh0eXBlb2YgdF90ai5UX0xFRlQg
+IT0gdHRfdSk/IHRfdGouVF9MRUZUIDogdHRMZWZ0KSsnLCcrCgkJCQkJKCh0eXBl
+b2YgdF90ai5UX09GRlNFVFggIT0gdHRfdSk/IHRfdGouVF9PRkZTRVRYIDogdHRP
+ZmZzZXRYKSsnLCcrCgkJCQkJKCh0eXBlb2YgdF90ai5UX09GRlNFVFkgIT0gdHRf
+dSk/IHRfdGouVF9PRkZTRVRZIDogdHRPZmZzZXRZKSsnLCcrCgkJCQkJKCh0eXBl
+b2YgdF90ai5UX1NUQVRJQyAhPSB0dF91KT8gdF90ai5UX1NUQVRJQyA6IHR0U3Rh
+dGljKSsnLCcrCgkJCQkJKCh0eXBlb2YgdF90ai5UX1NUSUNLWSAhPSB0dF91KT8g
+dF90ai5UX1NUSUNLWSA6IHR0U3RpY2t5KSsnLCcrCgkJCQkJKCh0eXBlb2YgdF90
+ai5UX1RFTVAgIT0gdHRfdSk/IHRfdGouVF9URU1QIDogdHRUZW1wKSsKCQkJCQkn
+KTsnCgkJCQkpOwoJCQkJdF90ai5vbm1vdXNlb3V0ID0gdHRfSGlkZTsKCQkJCXR0
+X0RlQWx0KHRfdGopOwoJCQl9CgkJfQoJfQoJaWYodHRfaWU2KSBodG0gKz0gJzxp
+ZnJhbWUgaWQ9IlRUaUVpRnJNIiBzcmM9ImphdmFzY3JpcHQ6ZmFsc2UiIHNjcm9s
+bGluZz0ibm8iIGZyYW1lYm9yZGVyPSIwIiBzdHlsZT0iZmlsdGVyOkFscGhhKG9w
+YWNpdHk9MCk7cG9zaXRpb246YWJzb2x1dGU7dG9wOjBweDtsZWZ0OjBweDtkaXNw
+bGF5Om5vbmU7Ij48L2lmcmFtZT4nOwoJdF9iID0gZG9jdW1lbnQuZ2V0RWxlbWVu
+dHNCeVRhZ05hbWU/IGRvY3VtZW50LmdldEVsZW1lbnRzQnlUYWdOYW1lKCJib2R5
+IilbMF0gOiB0dF9kYjsKCWlmKHRfYiAmJiB0X2IuaW5zZXJ0QWRqYWNlbnRIVE1M
+KSB0X2IuaW5zZXJ0QWRqYWNlbnRIVE1MKCJBZnRlckJlZ2luIiwgaHRtKTsKCWVs
+c2UgaWYodF9iICYmIHR5cGVvZiB0X2IuaW5uZXJIVE1MICE9IHR0X3UgJiYgZG9j
+dW1lbnQuY3JlYXRlRWxlbWVudCAmJiB0X2IuYXBwZW5kQ2hpbGQpCgl7CgkJdmFy
+IHRfZWwgPSBkb2N1bWVudC5jcmVhdGVFbGVtZW50KCJkaXYiKTsKCQl0X2IuYXBw
+ZW5kQ2hpbGQodF9lbCk7CgkJdF9lbC5pbm5lckhUTUwgPSBodG07Cgl9CgllbHNl
+CgkJZG9jdW1lbnQud3JpdGUoaHRtKTsKCWlmKGRvY3VtZW50LmdldEVsZW1lbnRC
+eUlkKSB0dF9pZnJtID0gZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoIlRUaUVpRnJN
+Iik7Cn0KdHRfSW5pdCgpOwo=
+
+------------LTD4Fd0ifg85DHQ9QmB4Iq--
