@@ -173,8 +173,9 @@ int _tmain(int argc, _TCHAR* argv[])
 	*/
 	char* v11 ="ddqre.wav";
 	string s = v11;
-	s.find_first_of('.');
-	cout<<string::npos;
+	string s1 = "ssqre.wav";
+	const char* v12 = s1.c_str();
+	cout<<s<<endl<<v12<<endl;
 	return 0;
 }
 
