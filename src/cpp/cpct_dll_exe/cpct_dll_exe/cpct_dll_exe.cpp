@@ -5,9 +5,9 @@
 #include <stdio.h>
 #include "ParseParams.h"
 #include "WavManipulateDll.h"
-#pragma comment(lib,"../Release/WavManipulateDll.lib")
+#pragma comment(lib,"../Debug/WavManipulateDll.lib")
 #include "cpct_dll.h"
-#pragma comment(lib,"../Release/cpct_dll.lib")
+#pragma comment(lib,"../Debug/cpct_dll.lib")
 
 
 #define DATA_LENGTH 4096

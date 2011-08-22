@@ -19,8 +19,7 @@ private:
 	float pitch;
 
 	void setFileName(int numparams, char* params[]);
-	void setTempo(int numparams, char* params[]);
-	void setPitch(int numparams, char* params[]);
+	void setTempoPitch(int numparams, char* params[]);
 
 public:
 	ParseParams(int numparams, char* params[] );
