@@ -3,6 +3,7 @@
 
 #define DLL_EXPORTS
 #include <stdio.h>
+#include <stdexcept>
 #include "ParseParams.h"
 #include "WavManipulateDll.h"
 #pragma comment(lib,"../Debug/WavManipulateDll.lib")

@@ -7,6 +7,7 @@
 #include <string>
 #include <stdlib.h>
 #include "ParseParams.h"
+#include <stdexcept>
 
 using namespace std;
 
