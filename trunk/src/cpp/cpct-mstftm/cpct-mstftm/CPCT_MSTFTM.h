@@ -1,3 +1,27 @@
+/*
+ * Author        : Copyright (c) Jie Deng
+ * Author e-mail : ddqre@163.com
+ *
+ * License :
+ * cpct-mstftm processing library
+ * Copyright (c) Jie Deng
+ *
+ *   This library is free software; you can redistribute it and/or
+ *   modify it under the terms of the GNU Lesser General Public
+ *   License as published by the Free Software Foundation; either
+ *   version 2.1 of the License, or any later version.
+ *
+ *   This library is distributed in the hope that it will be useful,
+ *   but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ *   Lesser General Public License for more details. 
+ *
+ *   You should have received a copy of the GNU Lesser General Public
+ *   License along with this library; if not, write to the Free Software
+ *   Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA 02111-1307  USA
+ *
+ */
+
 #ifndef CPCT_MSTFTM_H
 #define CPCT_MSTFTM_H
 
@@ -96,10 +120,13 @@ namespace CPCT
 		~CPCT_MSTFTM(void);
 		CPCT_MSTFTM(int winlen, int hoplen, int nit);
 
-		// float* data return the float* dataOutput, int& datalength return the int nDataOutput
+		// float* data is the processed sound data
+		// int& datalength return the processed data length
 		void getData(float* data, int& datalength);
 		
-		// set the float* dataInput, datalength is the length of data, nChannels is the number of channels
+		// const float* data is the unprocessed data
+		// int datalength is the unprocessed data length
+		// int nChannels is the number of channels
 		void setData(const float* data, int datalength, int nChannels);
 		
 		// set the float tempo, float pitch
