@@ -1,0 +1,5 @@
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDotNetDll\CpctDotNetDll\bin\Debug\CpctDotNetDll.dll
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDotNetDll\CpctDotNetDll\bin\Debug\CpctDotNetDll.pdb
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDotNetDll\CpctDotNetDll\obj\Debug\ResolveAssemblyReference.cache
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDotNetDll\CpctDotNetDll\obj\Debug\CpctDotNetDll.dll
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDotNetDll\CpctDotNetDll\obj\Debug\CpctDotNetDll.pdb

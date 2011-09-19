@@ -1,0 +1,12 @@
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\obj\Debug\ResolveAssemblyReference.cache
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\obj\Debug\CpctDemo1.Form1.resources
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\obj\Debug\CpctDemo1.Properties.Resources.resources
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\obj\Debug\CpctDemo1.csproj.GenerateResource.Cache
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\bin\Debug\CpctDemo1.exe
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\bin\Debug\CpctDemo1.pdb
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\bin\Debug\CpctDotNetDll.dll
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\bin\Debug\ManipulateMicrophone.dll
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\bin\Debug\CpctDotNetDll.pdb
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\bin\Debug\ManipulateMicrophone.pdb
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\obj\Debug\CpctDemo1.exe
+E:\work_SR\code\CPCT_MSTFTM\src\csharp\CpctDemo1\CpctDemo1\obj\Debug\CpctDemo1.pdb
