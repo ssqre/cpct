@@ -30,22 +30,35 @@ namespace CpctDemo1
 
         private void SoundBufferFull(byte[] buffer)
         {
-            if (GetEnergy(buffer)<2)
+            if (flag==true)
             {
-                m_SoundOut.Play(buffer, 0, buffer.Length);
-            }
-            else
-            {
-                int datalength;
-                float[] m_DataIn = Byte2Float(buffer);
-                float[] m_DataOut = new float[BufferSize * 2];
-                cpct.CreateCpctByParams(128, 64, 5);
-                cpct.SetData(m_DataIn, m_DataIn.Length, 1);
-                cpct.SetParams((float)(trackBarTempo.Value / 100.0), (float)(trackBarPitch.Value / 100.0 * 12.0));
-                cpct.GetData(m_DataOut, out datalength);
-                byte[] m_DataPlay = Float2Byte(m_DataOut);
-                m_SoundOut.Play(m_DataPlay, 0, datalength);
-            }         
+                double se = GetEnergy(buffer);
+                if (se > 100)
+                {
+                    progressBarSE.Value = 100;
+                }
+                else
+                {
+                    progressBarSE.Value = (int)se;
+                }
+
+                if (se < 2)
+                {
+                    m_SoundOut.Play(buffer, 0, buffer.Length);
+                }
+                else
+                {
+                    int datalength;
+                    float[] m_DataIn = Byte2Float(buffer);
+                    float[] m_DataOut = new float[BufferSize * 2];
+                    cpct.CreateCpctByParams(128, 64, 5);
+                    cpct.SetData(m_DataIn, m_DataIn.Length, 1);
+                    cpct.SetParams(0, (float)(trackBarPitch.Value / 100.0 * 12.0));
+                    cpct.GetData(m_DataOut, out datalength);
+                    byte[] m_DataPlay = Float2Byte(m_DataOut);
+                    m_SoundOut.Play(m_DataPlay, 0, datalength);
+                } 
+            }                   
         }
 
         private void btnGo_Click(object sender, EventArgs e)
@@ -55,6 +68,8 @@ namespace CpctDemo1
                 m_SoundIn.Stop();
                 flag = false;
                 btnGo.Text = "Start";
+                progressBarSE.Value = 0;
+                trackBarPitch.Value = 0;
             }
             else
             {
