@@ -57,6 +57,7 @@ namespace CpctDemo1
                     cpct.GetData(m_DataOut, out datalength);
                     byte[] m_DataPlay = Float2Byte(m_DataOut);
                     m_SoundOut.Play(m_DataPlay, 0, datalength);
+                    cpct.DestroyCpct();
                 } 
             }                   
         }
